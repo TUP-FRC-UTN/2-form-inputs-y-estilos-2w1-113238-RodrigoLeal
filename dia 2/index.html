@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post">
+        Nombre: <br>
+        <input type="text" placeholder="Ingrese Nombre" Nombre><br>
+        Apellido <br>
+        <input type="text" placeholder="Ingrese Apellido" name="apellido"><br>
+        Seleccione Género: <br>
+        <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+        <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+        <input type="radio" name="genero" id="genero" value="3" checked> Prefiero <br>
+        <br>
+
+        Intereses: <br>
+        <input type="checkbox" name="Intereses" id="Intereses" checked> Deportes <br>
+        <input type="checkbox" name="Intereses" id="Intereses" checked> Peliculas <br>
+        <input type="checkbox" name="Intereses" id="Intereses" checked> Series <br>
+        <br>
+        <br>
+        
+        Fecha de Nacimiento: <br>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="2022-03-23" max="2022-03-25">
+        <br>
+        <br>
+
+        Seleccione provincia: <br>
+        <select name="provincia" id="provincia">
+            <option value="">Seleccione...</option>
+            <option value="1">Cordoba</option>
+            <option value="2">Buenos Aires</option>
+        </select>
+    <br>
+    <br>
+    ingrese comentario <br>
+    <textarea name="comentario" id="comentario" cols="40" rows="20" placeholder="Ingrese comentario"></textarea>
+    <br>
+    <br>
+    ingrese su numero: <br>
+    <input type="number" name="numero" id="numero" min="10" max="100">
+    <br><br>
+    
+    <button type="submit">Registrarse</button>
+    <button type="reset">Restablecer</button>
+    <br><br>
+
+    </form>
+</body>
+</html>

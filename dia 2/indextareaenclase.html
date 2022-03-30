@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post">
+        Fecha de factura: <br>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="2022-03-23" max="2022-03-25">
+        <br>
+        <br>
+        
+        Nombre: <br>
+        <input type="text" placeholder="Ingrese Nombre" name="Nombre"><br>
+        Concepto: <br>
+        <input type="text" placeholder="Ingrese concepto" name="concepto"><br>
+        <br><br>
+        Seleccione rubro: <br>
+        <input type="radio" name="rubro" id="rubro" value="1"> Remeras <br>
+        <input type="radio" name="rubro" id="rubro" value="2"> Pantalones <br>
+        <input type="radio" name="rubro" id="rubro" value="3" checked> Camperas <br>
+        <br>
+
+        Talles: <br>
+        <input type="checkbox" name="Talles" id="Talles" > S <br>
+        <input type="checkbox" name="Talles" id="Talles" > M <br>
+        <input type="checkbox" name="Talles" id="Talles" checked> L <br>
+        <br><br>
+        
+        Ingrese cantidad: <br>
+    <input type="number" name="cantidad" id="cantidad" min="10" max="100">
+    <br><br>
+
+        Seleccione Sucursal de entrega: <br>
+        <select name="provincia" id="provincia">
+            <option value="">Seleccione...</option>
+            <option value="1">Cordoba, Centro</option>
+            <option value="2">Cordoba, Cerro de las Rosas</option>
+        </select>
+    <br>
+    <br>
+    ingrese comentario <br>
+    <textarea name="comentario" id="comentario" cols="40" rows="20" placeholder="Ingrese comentario"></textarea>
+    <br>
+    <br>
+    
+    
+    <button type="submit">Registrarse</button>
+    <button type="reset">Restablecer</button>
+    <br><br>
+
+    </form>
+</body>
+</html>
